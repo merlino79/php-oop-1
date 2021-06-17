@@ -1,6 +1,6 @@
 <?php
-    class Movie
-    {
+    class Movie   {
+ 
         public $title;
         public $production;
         public $anno;
@@ -10,7 +10,7 @@
         private $cash_investiment;
 
 
-        public function __constuct($_title){
+        public function __construct($_title){
 
           $this->title = $_title;
         }

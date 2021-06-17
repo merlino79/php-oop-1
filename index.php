@@ -2,7 +2,7 @@
   include_once __DIR__ ."/Movie.php";
 
   $film = new Movie("batman");
-  var_dump($film);
+  //var_dump($film);
 
 
 ?>
@@ -17,6 +17,8 @@
   <title>Document</title>
 </head>
 <body>
+
+<h1>film: <?php echo $film->title?></h1>
 
  
 
