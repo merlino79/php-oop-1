@@ -9,6 +9,8 @@
   $film->cast = "Christian Bale, Gary Oldman, Morgan Freeman";
   $film1->direction = "Zack Snyder";
   $film1->year = "2016";
+
+  $film->setTakings(18500000);
   
   
 
@@ -32,6 +34,7 @@
 <body>
 
 <h1> <?php echo $film->getInfo() ?></h1>
+<h1>incasso: <?php echo $film->getTakings() ?></h1>
 <h3>direction  <?php echo $film->direction?></h3>
 
 <h4>anno :<?php echo $film->year?></h4>
