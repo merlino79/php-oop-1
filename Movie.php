@@ -19,7 +19,7 @@
 
         }
         public function getInfo(){//funzione per sapere marca modello e prezzo che la collego all'ndex.htmls
-            return "direction: ".$this->direction;
+            return "direction: ".$this->direction ;
         }
 
 
