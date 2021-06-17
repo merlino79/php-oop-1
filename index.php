@@ -1,8 +1,9 @@
 <?php
   include_once __DIR__ ."/Movie.php";
 
-  $film = new Movie("batman");
-  //var_dump($film);
+  $film = new Movie("Batman Begins");
+  $film->direction = "Christopher Nolan";
+  
 
 
 ?>
@@ -18,7 +19,9 @@
 </head>
 <body>
 
-<h1>film: <?php echo $film->title?></h1>
+<h1>film: <?php echo $film->title ?></h1>
+<h3>Diection by : <?php echo $film->direction ?></h3>
+
 
  
 

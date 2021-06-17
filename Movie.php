@@ -4,7 +4,7 @@
         public $title;
         public $production;
         public $anno;
-        public $author;
+        public $direction;
         public $cast;
         public $time;
         private $cash_investiment;
