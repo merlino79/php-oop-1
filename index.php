@@ -1,12 +1,18 @@
 <?php
   include_once __DIR__ ."/Movie.php";
 
-  $film = new Movie("Batman Begins");
-  $film1 = new Movie("title");
-
+  $film = new Movie("Il Cavaliere Oscuro");
+  $film1 = new Movie("Batman v Superman");
   
   $film->direction = "Christopher Nolan";
-  $film1->title = "Batman v Superman - Dawn of Justice";
+  $film->year = "2012";
+  $film1->direction = "Zack Snyder";
+  $film1->year = "2016";
+  
+  
+
+  
+  
   
   
 
@@ -20,14 +26,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>php_oop_1</title>
 </head>
 <body>
 
-<h1>film: <?php echo $film->title ?></h1>
-<h3>Diection by : <?php echo $film->direction ?></h3>
+<h1> <?php echo $film->getInfo() ?></h1>
+<h3>direction:  <?php echo $film->direction?></h3>
+
+<h4>anno :<?php echo $film->year?></h4>
 
 <h1> <?php echo $film1->getInfo() ?></h1>
+<h3>direction: <?php echo $film1->direction?></h3>
+
+
+<h4>anno :<?php echo $film1->year?></h4>
+
+
 
 
  
