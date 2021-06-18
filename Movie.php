@@ -30,7 +30,7 @@
         }
 
 
-        public function getInfo(){//funzione per sapere marca modello e prezzo che la collego all'ndex.htmls
+        public function getInfo(){
             return "title: ".$this->title;
         }
 
