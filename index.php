@@ -11,7 +11,7 @@
   $film1->direction = "Zack Snyder";
   $film1->year = "2016";
 
-  $film->setTakings(18500000 );
+  $film->setTakings(18500000, "euro"  );
   
   
 

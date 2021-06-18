@@ -1,12 +1,13 @@
 <?php
-    class Movie   {
+
+  class Movie   {
  
         public $title;
         public $production;
         public $year;
         public $direction;
         public $cast;
-        public $time;
+        public $genres = [];
         private $takings ;
 
 
@@ -19,25 +20,20 @@
 
         }
 
-        public function setTakings($_takings ){
-            
-            $this->takings = $_takings ;
+        public function getInfo()
+        
+        {
+            return "prodotto da: ".$this->direction . " <br>anno: ".$this->year . "<br>cast: $this->cast";
         }
 
-         public function getTakings (){
-
-            return $this->takings;
-        }
-
-
-        public function getInfo(){
-            return "title: ".$this->title;
+        public function getGenres($_genres)
+        
+        {
+            $this->genres = $_genres;
         }
 
        
 
-    }
-    
-
+   }
 
 ?>
