@@ -34,6 +34,10 @@
             return "title: ".$this->title;
         }
 
+         public function getInfo(){
+            return "prodotto: ".$this->production;
+        }
+
 
     }
     

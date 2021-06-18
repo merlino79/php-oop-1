@@ -3,6 +3,7 @@
 
   $film = new Movie("Il Cavaliere Oscuro");
   $film1 = new Movie("Batman v Superman");
+  $film2 = new Movie("spiderman");
   
   $film->direction = "Christopher Nolan";
   $film->year = "2012";
@@ -10,7 +11,7 @@
   $film1->direction = "Zack Snyder";
   $film1->year = "2016";
 
-  $film->setTakings(18500000);
+  $film->setTakings(18500000 );
   
   
 
@@ -45,6 +46,10 @@
 
 
 <h4>anno :<?php echo $film1->year?></h4>
+
+
+
+
 
 
 
