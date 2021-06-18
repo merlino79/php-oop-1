@@ -1,5 +1,5 @@
 <?php
-  include_once __DIR__ ."/Movie.php";
+  require_once __DIR__ ."/Movie.php";
 
   $film = new Movie("Il Cavaliere Oscuro");
   $film1 = new Movie("Batman v Superman");
@@ -36,6 +36,7 @@
 <h1> <?php echo $film->getInfo() ?></h1>
 <h1>incasso: <?php echo $film->getTakings() ?></h1>
 <h3>direction  <?php echo $film->direction?></h3>
+<h3>cast:  <?php echo $film->cast?></h3>
 
 <h4>anno :<?php echo $film->year?></h4>
 
