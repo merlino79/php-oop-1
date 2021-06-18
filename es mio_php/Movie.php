@@ -29,7 +29,7 @@
         public function getGenres($_genres)
         
         {
-            $this->genres = $_genres;
+            return $this->genres;
         }
 
        
